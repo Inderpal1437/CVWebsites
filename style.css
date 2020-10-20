@@ -1,0 +1,267 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+#header
+{
+	height: 100vh;
+	background: url(back.jpg);
+	background-position: center;
+	
+}
+
+.Info
+{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+}
+
+.Info img
+{
+	border-radius: 50%;
+	width: 200px;
+	border: 2px solid orange;
+}
+
+.Info h1
+{
+	color: black;
+	font-weight: bold;
+	margin: 10px;
+}
+
+.Info h4
+{
+	color: black;
+}
+nav ul 
+{
+	list-style:none;
+	margin: 0;
+	padding-left: 0px;
+    
+}
+nav ul li 
+{
+	float: left;
+	width: 20%;
+	border: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+nav ul li a {
+	font-weight: 600;
+	text-decoration : none;
+	color: black;
+	display: block;
+	padding: 10% 20%;
+}
+nav ul li a:hover, nav ul li.nav-item a {
+	background-color: black;
+	color: white;
+}
+
+.AboutMe
+{
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.AboutMyself
+{
+    background-color:beige;
+}
+.AboutMyself h2
+{
+    color:black;
+    text-decoration-color: aquamarine;
+    text-decoration:underline;
+    text-align: center;
+}
+
+.AboutMyself ul
+{
+    padding: 50px;
+}
+
+.AboutMyself ul li
+{   
+    padding-left: 30px;
+}
+.resume
+{
+    
+	margin-top: -10px;
+	padding-top: 20px;
+	padding-bottom: 70px;
+	background: azure;
+}
+
+.resume h1
+{
+	margin-top: 70px;
+	margin-bottom: 17px;
+}
+
+.timeline
+{
+	list-style-type: none;
+	position: relative;
+}
+
+.timeline:before
+{
+	content: '';
+	background: #555;
+	display: inline-block;
+	position: absolute;
+	left: 29px;
+	width: 2px;
+	height: 100%;
+	z-index: 1;
+}
+
+.services
+{
+    background-color :antiquewhite;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.services h1
+{
+	margin-bottom: 20px;
+}
+
+.service-box
+{
+	background: beige;
+	padding: 15px;
+	margin-top: 17px;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-style : double;
+}
+
+.service-box .fa
+{
+	margin: 0 10px;
+    padding-left: 10px;
+	font-size: 30px;
+}
+
+.service-box span
+{
+	margin: 40px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.service-box p
+{
+	font-size: 15px;
+	margin-top: 20px;
+	color: black;
+}
+
+.service-box:hover
+{
+	background: azure;
+	color: black;
+	border-top-right-radius: 80px;
+	border-bottom-left-radius: 100px;
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	transition: 1.5s;
+}
+
+.service-box:hover p
+{
+	color: black;
+}
+
+.wrapper{
+	margin-left: 300px;
+}
+.wrapper .button{
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  float: left;
+  margin: 0 7px;
+  overflow: hidden;
+  background: gray;
+  
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 20px 20px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+  margin: 0 60px;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+
+
+
+.wrapper .button:nth-child(4):hover .icon{
+  background: #ff0000;
+}
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span{
+  color: #1DA1F2;
+}
+.wrapper .button:nth-child(3) span{
+  color: #E1306C;
+}
+.wrapper .button:nth-child(4) span{
+  color: #ff0000;
+}
+
+    
